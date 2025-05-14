@@ -17,5 +17,6 @@ public class SpringBootHelloWorldExampleApplication  extends SpringBootServletIn
 	public static void main(String[] args) 
 {
 SpringApplication.run(SpringBootHelloWorldExampleApplication.class, args);
+	System.out.println("hello world");
 }
 }
