@@ -12,9 +12,6 @@ env:
   applicationfolder: spring-boot-hello-world-example
   AWS_REGION: ap-southeast-1
   S3BUCKET: codedeploystack-webappdeploymentbucket-rd1ht5nx1joj
-permissions:
-  id-token: write
-  contents: read
 
 jobs:
   build:
